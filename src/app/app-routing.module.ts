@@ -3,6 +3,7 @@ import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
+  { path: 'alert', loadChildren: './alert/alert.module#AlertPageModule' },
   { path: 'home', loadChildren: './home/home.module#HomePageModule' },
 ];
 
