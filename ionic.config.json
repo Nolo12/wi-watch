@@ -1,5 +1,7 @@
 {
   "name": "WiWatch",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
